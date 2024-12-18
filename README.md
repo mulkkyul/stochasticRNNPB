@@ -127,7 +127,7 @@ python recognition.py
 ## Citation
 
 If you use this code for your research, please cite:
-> Jungsik Hwang and Ahmadreza Ahmadi, "Stochastic RNNPB: A Framework for Sequence Learning with Stochastic Parametric Biases," Year.
+> Jungsik Hwang and Ahmadreza Ahmadi, "A Novel Framework for Learning Stochastic Representations for Sequence Generation and Recognition," ArXiv. 2024.
 
 <br><br>
 
