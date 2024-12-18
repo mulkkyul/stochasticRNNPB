@@ -41,10 +41,9 @@ This repository contains the PyTorch implementation of a **Stochastic RNNPB (Rec
 
 The code is tested with:
 
-- Python 3.7
-- PyTorch 1.10
-- Ubuntu
-- Other dependencies: Install via `pip install -r requirements.txt` (create this file if needed).
+- Python 3.10
+- PyTorch 2.1
+- Ubuntu 22.04
 
 <br><br>
 
