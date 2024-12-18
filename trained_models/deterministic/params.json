@@ -1,0 +1,21 @@
+{
+    "random_seed": 1116,
+    "train": {
+        "learning_rate": 0.001,
+        "num_epochs": 50000,
+        "batch_size": 128,
+        "loss_threshold_save_best": 0.0008
+    },
+    "model": {
+        "behavior": "deterministic",
+        "beta": 0.0,
+        "pb_size": 4,
+        "num_layers": 1,
+        "hidden_size": 256,
+        "data_dim": 17,
+        "num_pb": 72
+    },
+    "path_dataset_train": "./dataset/train/",
+    "path_dataset_recognition": "./dataset/recognition/",
+    "path_result": "./result/"
+}
