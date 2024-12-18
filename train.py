@@ -9,7 +9,7 @@ from tqdm import tqdm
 torch.set_printoptions(sci_mode=False)
 
 def train_model(params, device, data_loader):
-    model = models.StochasticLSTMPB(params, device).to(device)
+    model = models.StochasticRNNPB(params, device).to(device)
     criterion = nn.MSELoss(reduction="none")
     optimizer = Adam(params=model.parameters(), lr=params["train"]["learning_rate"])
     beta = params["model"]["beta"]
@@ -45,6 +45,7 @@ def train_model(params, device, data_loader):
 
 
 if __name__ == "__main__":
+
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     params = utils.load_params("./params.json")
     utils.set_random_seed(params)

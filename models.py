@@ -1,18 +1,9 @@
 import torch
 import torch.nn as nn
 
-# import numpy as np
-# np.random.seed(1212)
-# torch.manual_seed(1212)
-# torch.cuda.manual_seed(1212)
-# torch.backends.cudnn.deterministic = True
-# torch.backends.cudnn.benchmark = False
-# torch.random.manual_seed(1212)
-
-
-class StochasticLSTMPB(nn.Module):
+class StochasticRNNPB(nn.Module):
     def __init__(self, params, device):
-        super(StochasticLSTMPB, self).__init__()
+        super(StochasticRNNPB, self).__init__()
 
         self.model_behavior = params["model"]["behavior"]
         self.num_layers = params["model"]["num_layers"]

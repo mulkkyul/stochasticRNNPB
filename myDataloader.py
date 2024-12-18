@@ -33,6 +33,7 @@ def pad_collate(batch: List[Tuple[torch.Tensor, int]]) -> Tuple[torch.Tensor, to
     return xx_pad, yy, x_lens
 
 def load_dataset(path_dataset, device):
+
     print(f"Loading the data from {path_dataset}")
     files_dataset = sorted(glob.glob(os.path.join(path_dataset, "*.csv")))
     num_files = len(files_dataset)
