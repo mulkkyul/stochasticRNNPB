@@ -126,7 +126,7 @@ python recognition.py
 ## Citation
 
 If you use this code for your research, please cite:
-> Jungsik Hwang and Ahmadreza Ahmadi, "A Novel Framework for Learning Stochastic Representations for Sequence Generation and Recognition," ArXiv. 2024.
+> Hwang, J., & Ahmadi, A. (2024). A Novel Framework for Learning Stochastic Representations for Sequence Generation and Recognition. arXiv preprint arXiv:2501.00076.
 
 <br><br>
 
